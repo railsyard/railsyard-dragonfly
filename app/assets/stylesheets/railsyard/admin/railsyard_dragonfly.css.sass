@@ -2,4 +2,36 @@
 @import railsyard/admin/variables/colors
 @import railsyard/admin/variables/fonts
 
-div.input
+div.input.dragonfly
+
+  .dragonfly-fields
+    display: inline-block
+    vertical-align: top
+    position: relative
+    width: 500px
+    +pie-clearfix
+
+    label
+      width: auto
+
+  .dragonfly-field
+    margin-bottom: 4px
+
+  .field-preview
+    float: left
+    width: 72px
+    margin-right: 10px
+
+    .no-image
+      background-color: $light-gray
+      text-align: center
+      height: 72px
+      display: table-cell
+      vertical-align: middle
+      color: #666
+      +text-shadow(rgba(white, 0.6) 0 1px 0)
+      font-size: 12px
+
+  .field-upload, .field-remove, .field-url
+    float: right
+    width: 500px - 72px - 10px
