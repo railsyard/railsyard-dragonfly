@@ -5,7 +5,7 @@ module Railsyard
       class DragonflyInput < SimpleForm::Inputs::FileInput
 
         def input
-          components = options[:components] || [ :preview, :upload ]
+          components = options[:components] || [ :preview, :upload, :remove ]
 
           out = '<div class="dragonfly-fields">'
 
