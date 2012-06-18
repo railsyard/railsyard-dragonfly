@@ -11,7 +11,7 @@ Add a Dragonfly attachment to your backend resource.
 
 ## Usage
 
-1. Configure Dragonfly initializer and migration (see https://github.com/markevans/dragonfly)
+1. Create Dragonfly model and migration (see https://github.com/markevans/dragonfly)
 
 2. Backend configuration (e.g. app/backend/editor_for_books.rb):
 

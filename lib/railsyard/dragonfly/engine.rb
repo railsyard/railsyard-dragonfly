@@ -7,6 +7,7 @@ module Railsyard
           "railsyard/admin/railsyard_dragonfly.css",
           "railsyard/admin/railsyard_dragonfly.js"
         ]
+        require 'dragonfly/rails/images'
       end
 
       config.to_prepare do
