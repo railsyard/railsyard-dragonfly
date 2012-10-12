@@ -2,7 +2,7 @@ module Railsyard
   module Dragonfly
     class Engine < ::Rails::Engine
 
-      initializer "Railsyard precompile hook" do |app|
+      initializer "Railsyard precompile hook", :group => :all do |app|
         app.config.assets.precompile += [
           "railsyard/admin/railsyard_dragonfly.css",
           "railsyard/admin/railsyard_dragonfly.js"
